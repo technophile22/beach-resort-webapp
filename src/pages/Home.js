@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+import Hero from '../components/Hero';
+import Banner from '../components/Banner';
 
 export default function () {
     return (
-        <div>
-            Hello from home page
-        </div>
+        <Hero>
+            <Banner title="luxurious rooms" subtitle="Experience the passion of hospitality." >
+                <Link to="/rooms" className="btn-primary">
+                    our rooms
+                </Link>
+            </Banner>
+        </Hero>
     )
 }
