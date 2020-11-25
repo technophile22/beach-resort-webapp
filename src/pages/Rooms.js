@@ -7,7 +7,7 @@ import Banner from '../components/Banner';
 export const Rooms = () => {
     return (
         <Hero hero="roomsHero">
-            <Banner title="our rooms" subtitle="experience the comfort with our catalogue">
+            <Banner title="our rooms" subtitle="deluxe rooms starting at $299">
                 <Link to="/" className="btn-primary">
                     return home
                 </Link>
