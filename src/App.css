@@ -242,6 +242,8 @@ h6 {
   width: 90vw;
   margin: 0 auto;
   display: grid;
+  /* This line is the most used property for this project as it resolves the responsivness part of columns */
+  /* one column will cover one fraction of the screen until 255 px, after that it will be 2 and then 4(like in services section) */
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
@@ -254,6 +256,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
